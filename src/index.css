@@ -1,0 +1,30 @@
+.home-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-page li {
+  margin-bottom: 10px;
+}
+
+.home-page a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
