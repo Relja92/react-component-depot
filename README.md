@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# React Component Depot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **React Component Depot**, your go-to repository for high-quality, reusable React components. This collection ranges from simple UI elements to complex utilities, each designed to speed up development and bring consistency to your web projects.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Getting Started](#getting-started)
+- [Available Components](#available-components)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js
+- npm or Yarn
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Setup
+
+Clone the repository and install the dependencies to start using the components in your projects:
+
+```
+git clone git@github.com:Relja92/react-component-depot.git
+cd react-component-depot
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Available Components
+
+**DebouncedInput**: Enhances input fields with debouncing to limit API calls or other operations that should not fire on every keystroke.
+
+**TextTruncate**: Provides a way to elegantly truncate text content to a specified number of lines, ideal for previews and summaries where space is a constraint.
+
+## Contributing
+
+We welcome contributions from the community. To contribute:
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License, allowing free use, modification, and distribution of the components.
+
+---
+
+This version of the README provides a concise, high-level overview of what is available in the repository and the basic steps to get started, catering to an audience of developers who are likely familiar with GitHub workflows and React development.

@@ -4,15 +4,22 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <p>
-        Check out my projects on{" "}
-        <a href="https://github.com/yourusername">GitHub</a>.
+        Check out code for these components on{" "}
+        <a
+          target="blank"
+          href="https://github.com/Relja92/react-component-depot"
+        >
+          GitHub
+        </a>
+        .
       </p>
       <p>
-        Read more on my <a href="https://yourblog.com">Blog</a>.
+        Read more about Javascript on{" "}
+        <a href="https://www.viking-js.com/">Blog</a>.
       </p>
       <p>
         Email me at{" "}
-        <a href="mailto:youremail@example.com">youremail@example.com</a>
+        <a href="mailto:markoreljic992@gmail.com">markoreljic992@gmail.com</a>
       </p>
     </footer>
   );
