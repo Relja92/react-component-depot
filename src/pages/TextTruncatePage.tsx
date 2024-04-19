@@ -92,7 +92,16 @@ const TextTruncatePage: React.FC = () => {
           element={element}
           truncateText={truncateText}
           text={text}
-          textTruncateChild={<a href="#">{childText}</a>}
+          textTruncateChild={
+            <a
+              href="#"
+              onClick={() => {
+                setLine(0);
+              }}
+            >
+              {childText}
+            </a>
+          }
         />
       </div>
     </div>

@@ -38,6 +38,15 @@ const TextTruncate: React.FC<TextTruncateProps> = ({
     textOverflow: "ellipsis",
   };
 
+  if (line > 0) {
+    textStyle.WebkitLineClamp = line;
+  } else {
+    // Remove WebkitBoxOrient and WebkitLineClamp to display full content
+    delete textStyle.display;
+    delete textStyle.WebkitBoxOrient;
+    delete textStyle.WebkitLineClamp;
+  }
+
   const childStyle: React.CSSProperties = {
     position: "absolute",
     bottom: 0,
